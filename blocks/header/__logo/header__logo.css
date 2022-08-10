@@ -1,0 +1,7 @@
+.header__logo {
+  min-width: 176px;
+  min-height: 52px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
