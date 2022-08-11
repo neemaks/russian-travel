@@ -1,4 +1,6 @@
 .header__lang-link {
+  max-width: 30px;
+  max-height: 28px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -10,5 +12,7 @@
 }
 
 .header__lang-link:last-child {
+  max-width: 29px;
+  max-height: 28px;
   text-decoration: none;
 }

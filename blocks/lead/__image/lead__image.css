@@ -1,8 +1,9 @@
-.header__logo {
-  min-width: 176px;
-  min-height: 52px;
+.lead__image {
+  max-width: 984px;
+  max-height: 615px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   object-fit: contain;
-}
+  margin: 64px auto 0;
+} 
