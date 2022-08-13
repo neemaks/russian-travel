@@ -1,0 +1,8 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 984px;
+  max-height: 3392px;
+  color: var(--text-color);
+}

@@ -1,0 +1,6 @@
+.place__paragraph__text {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-self: start;
+}

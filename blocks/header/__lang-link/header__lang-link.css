@@ -7,7 +7,7 @@
   line-height: 28px;
   text-align: right;
   text-decoration-line: underline;
-  color: #FFF;
+  color: var(--text-color)
 }
 
 .header__lang-link:last-child {

@@ -4,5 +4,5 @@ flex-direction: column;
 margin: 92px 148px 92px;
 width: 690px;
 height: 429px;
-color: #FFF;
+color: var(--text-color);
 }

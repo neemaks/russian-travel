@@ -1,9 +1,8 @@
 .lead__image {
   max-width: 984px;
+  min-width: 320px;
   max-height: 615px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  min-height: 200px;
   object-fit: contain;
   margin: 64px auto 0;
 } 
