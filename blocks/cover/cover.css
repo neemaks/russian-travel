@@ -1,0 +1,9 @@
+.cover {
+ max-width: 1184px;
+ min-width: 320px;
+ max-height: 740px;
+ min-height: 200px;
+ display: flex;
+ margin: 92px auto 0;
+ color: var(--text-color);
+}

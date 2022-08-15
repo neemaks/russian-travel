@@ -48,4 +48,13 @@
 @import url(../blocks/places/place/__link/place__link.css);
 @import url(../blocks/places/place/__paragraph__text/place__paragraph__text.css);
 @import url(../blocks/places/place/__paragraph.css/place__paragraph.css);
+@import url(../blocks/intro/__span-bold/intro__span-bold.css);
 /* places */
+
+/* cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
+/* cover */
