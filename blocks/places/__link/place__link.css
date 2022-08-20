@@ -7,3 +7,7 @@
   text-decoration-line: underline;
   color: var(--text-color);
 }
+
+.place__link:hover {
+  opacity: .8;
+}

@@ -1,9 +1,17 @@
 .intro__title {
-  min-width: 690px;
-  min-height: 58px;
-  margin: 0;
+  width: 720px;
   font-family: 'Inter';
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  margin: 0;
+}
+
+/* max-with 666 (soft adaptive transition) */
+@media screen and (max-width: 666px) {
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

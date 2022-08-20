@@ -1,13 +1,18 @@
 .lead__title {
   max-width: 720px;
-  min-width: 288px;
-  max-height: 200px;
-  min-height: 88px;
   font-family: 'Inter';
-  font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
   margin: auto;
+}
+
+/* max-with 666 (soft adaptive transition) */
+@media screen and (max-width: 666px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }

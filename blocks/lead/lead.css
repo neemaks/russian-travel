@@ -1,6 +1,27 @@
 .lead {
   max-width: 984px;
-  min-width: 320px;
-  margin: 56px auto 0;
+  margin: 56px 148px 0;
   color: var(--text-color);
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    margin: 48px 48px 0;
+  }
+}
+
+ @media screen and (max-width: 768px) {
+  .lead {
+    max-width: 720px;
+    margin: 48px 0 0;
+  }
+}
+
+/* max-with 666 (soft adaptive transition) */
+@media screen and (max-width: 666px) {
+  .lead {
+    min-width: 320px;
+    margin: 48px 2px 0;
+  }
 }

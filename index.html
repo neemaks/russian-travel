@@ -10,7 +10,7 @@
 </head>
 
 <body class="page">
-
+ 
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg"
     alt="логотип с изоброжением карты России и заголовком Россия.">
@@ -19,16 +19,15 @@
       <a href="#" class="header__lang-link">En</a>
     </div>
   </header>
-  
+
   <main class="content">
-    
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img class="lead__image" src="./images/lead-polka.jpg"
       alt="Фото Калегина Михаила - Женщина спит в поезде на боковой полке в плацкарте.">
       <p class="lead__caption">ваша полка — верхняя</p>
-    </section>
+    </section>  
 
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -67,7 +66,7 @@
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" target="_blank" class="place__link">park-kosa.ru</a>
+          <a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
         </div>
         <img class="place__image" src="./images/place-kosa.jpg" alt="Фотография водного горизонта на Куршской косе" data-type="auto">
         <div class="place__paragraph__text">
@@ -83,7 +82,7 @@
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" target="_blank" class="place__link">National Geographic</a>
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__link">National Geographic</a>
         </div>
         <img class="place__image" src="./images/place-kolsky.jpg" alt="Фотография заснеженных гор на Кольском полуострове" data-type="auto">
         <div class="place__paragraph__text">
@@ -100,7 +99,7 @@
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" target="_blank" class="place__link">Facebook</a>
+          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="place__link">Facebook</a>
         </div>
         <img class="place__image" src="./images/place-altai.jpg" alt="Фотография компьютера на периле на фоне густого леса Алтая" data-type="auto">
         <div class="place__paragraph__text">
@@ -117,7 +116,7 @@
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" target="_blank" class="place__link">https://vk.com/baikalmile</a>
+          <a href="https://vk.com/baikalmile" target="_blank" class="place__link">https://vk.com/baikalmile</a>
         </div>
         <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Фотография глубокого льда на озере Байкал" data-type="auto">
         <div class="place__paragraph__text">
@@ -133,9 +132,9 @@
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="#" target="_blank" class="place__link">http://vodlozero.ru/</a>
+          <a href="http://vodlozero.ru" target="_blank" class="place__link">http://vodlozero.ru/</a>
         </div>
-        <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Фотография глубокого льда на озере Байкал" data-type="auto">
+        <img class="place__image" src="./images/place-karelia.jpg" alt="Фотография водоема между густого леса" data-type="auto">
         <div class="place__paragraph__text">
           <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. 
             Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. 
@@ -145,14 +144,24 @@
         </div>
       </article>
     </section>
-
-      <section class="cover">
-        <div class="cover__background">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          <div class="cover__overlay"></div>
-        </div>
-      </section>
+    
+    <section class="cover">
+      <div class="cover__background">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__title">До Байкала «на собаках»</a>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        <div class="cover__overlay"></div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="footer__links">
+        <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
+        <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
+        <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
+        <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
+        <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
+      </div>
+      <p class="footer__copyright">&copy; 2022. Максим Михайлов</p>
+    </footer>
   </main>
-  <!-- <footer class="footer"></footer>
-</body> -->
+</body>

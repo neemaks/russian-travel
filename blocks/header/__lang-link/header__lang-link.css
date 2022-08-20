@@ -1,6 +1,4 @@
 .header__lang-link {
-  max-width: 30px;
-  max-height: 28px;
   font-family: 'Inter';
   font-weight: 400;
   font-size: 24px;
@@ -11,7 +9,16 @@
 }
 
 .header__lang-link:last-child {
-  max-width: 29px;
-  max-height: 28px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .header__lang-link:last-child {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

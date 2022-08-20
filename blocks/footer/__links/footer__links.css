@@ -1,0 +1,12 @@
+.footer__links {
+  display: flex;
+  gap: 18px;
+}
+
+/* max-with 666 (soft adaptive transition) */
+@media screen and (max-width: 666px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

@@ -1,9 +1,14 @@
 .intro__subtitle {
-  min-width: 690px;
-  min-height: 208px;
+  max-width: 690px;
   margin: 40px auto 33px;
   font-family: 'Inter';
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__subtitle {
+    max-width: 288px;
+  }
 }

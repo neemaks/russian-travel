@@ -1,0 +1,13 @@
+.footer__link {
+  margin: 0;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.footer__link:hover {
+    opacity: .8;
+  }
