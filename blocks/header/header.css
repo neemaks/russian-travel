@@ -13,7 +13,7 @@
   }
 }
 
- @media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .header {
     max-width: 720px;
     margin: 28px 24px 0;
