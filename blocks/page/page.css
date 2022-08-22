@@ -2,21 +2,21 @@
   font-family: "Inter";
   src: local("Inter Regular"),
     local("Inter-Regular");
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Inter";
   src: local("Inter Bold"),
     local("Inter-Bold");
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
   font-family: "Inter";
-  src: local("Inter Italic"),
-    local("Inter-Italic");
-  font-style: italic;
+  src: local("Inter Black"),
+    local("Inter-Black");
+  font-weight: 900;
 }
 
 .page {
