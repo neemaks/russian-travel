@@ -8,11 +8,7 @@
 }
 
 .cover__overlay:hover {
-  width: 100%;
-  background: #2A2C2F;
   opacity: .8;
-  position: absolute;
-  z-index: 0;
 }
 
 @media screen and (max-width: 1024px) {
