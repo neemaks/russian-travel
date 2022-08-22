@@ -19,12 +19,6 @@
     font-style: italic;
   }
 
-@import url('https://rsms.me/inter/inter.css');
-    html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif; }
-} 
-
 .page {
     min-width: 320px;
     max-width: 1280px;
