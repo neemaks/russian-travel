@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-/* normalize CSS */
+@import url(../vendor/fonts.css);
 
 /* page (@font-face and width inside page.css) */
 @import url(../blocks/page/page.css);

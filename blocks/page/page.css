@@ -1,24 +1,3 @@
-@font-face {
-  font-family: "Inter";
-  src: local("Inter Regular"),
-    local("Inter-Regular");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: local("Inter Bold"),
-    local("Inter-Bold");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: local("Inter Black"),
-    local("Inter-Black");
-  font-weight: 900;
-}
-
 .page {
   min-width: 320px;
   max-width: 1280px;
