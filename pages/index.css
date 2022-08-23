@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-/* page (@font-face and width inside page.css) */
+/* page */
 @import url(../blocks/page/page.css);
 /* page */
 
