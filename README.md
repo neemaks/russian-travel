@@ -13,7 +13,7 @@
 
 **Ссылка на страницу**
 
-* [Ссылка на страницу](https://neemaks.github.io/russian-travel/).
+* [https://neemaks.github.io/russian-travel/](https://neemaks.github.io/russian-travel/).
 
 **Планы по доработке проекта**
 
