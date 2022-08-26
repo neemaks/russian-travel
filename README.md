@@ -13,10 +13,9 @@
 
 **Ссылка на страницу**
 
-* [https://neemaks.github.io/russian-travel/](https://neemaks.github.io/russian-travel/).
+* [https://neemaks.github.io/russian-travel/](https://neemaks.github.io/russian-travel/)
 
 **Планы по доработке проекта**
 
-* сделать работу соотвтетвующей для проверки
-* внести все поправки ревьювера c первого раза
+* внести все поправки ревьювера cо второго раза
 * сдать проект до дедлайна
