@@ -13,13 +13,13 @@
 
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 720px;
-    margin: 48px auto  0;
+    margin: 0;
+    margin-top: 48px;
   }
 }
 
-/* max-with 666 (soft adaptive transition) */
-@media screen and (max-width: 666px) {
+/* max-with 680 (soft adaptive transition) */
+@media screen and (max-width: 680px) {
   .lead {
     max-width: 320px;
     margin: 48px 2px 0;

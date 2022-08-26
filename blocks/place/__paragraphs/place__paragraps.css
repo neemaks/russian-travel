@@ -5,6 +5,12 @@
   align-self: start;
 }
 
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    gap: 25px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__paragraphs {
     margin: 0 16px 0;

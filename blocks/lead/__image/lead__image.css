@@ -6,12 +6,12 @@
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-    margin: 56px auto 0;
+    margin: 56px 0 0;
   }
 }
 
-/* max-with 666 (soft adaptive transition) */
-@media screen and (max-width: 666px) {
+/* max-with 680 (soft adaptive transition) */
+@media screen and (max-width: 680px) {
   .lead__image {
     margin: 40px auto 0;
   }
