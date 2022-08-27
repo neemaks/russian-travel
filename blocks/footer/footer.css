@@ -23,7 +23,6 @@
     flex-direction: column;
     gap: 48px;
     max-width: 186px;
-    min-height: 310px;
     margin: 64px 16px 24px;
   }
 }
