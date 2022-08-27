@@ -9,7 +9,7 @@
   color: var(--text-url-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .place__url-heading {
     line-height: 12px;
   }
